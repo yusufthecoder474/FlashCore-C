@@ -1,0 +1,220 @@
+{
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "runs": [
+    {
+      "workload": "uniform-7",
+      "argv": [
+        "/workspace/scratch/3acfd9351244/FlashCore-C/build-sanitize/flashcore"
+      ],
+      "exit_codes": [
+        0,
+        0
+      ],
+      "seconds": [
+        0.24909409299993968,
+        0.25060610000002725
+      ]
+    },
+    {
+      "workload": "uniform-19",
+      "argv": [
+        "/workspace/scratch/3acfd9351244/FlashCore-C/build-sanitize/flashcore"
+      ],
+      "exit_codes": [
+        0,
+        0
+      ],
+      "seconds": [
+        0.245367506999969,
+        0.24511464499994418
+      ]
+    },
+    {
+      "workload": "uniform-41",
+      "argv": [
+        "/workspace/scratch/3acfd9351244/FlashCore-C/build-sanitize/flashcore"
+      ],
+      "exit_codes": [
+        0,
+        0
+      ],
+      "seconds": [
+        0.2667176569999583,
+        0.3185056219999751
+      ]
+    },
+    {
+      "workload": "hotcold-7",
+      "argv": [
+        "/workspace/scratch/3acfd9351244/FlashCore-C/build-sanitize/flashcore"
+      ],
+      "exit_codes": [
+        0,
+        0
+      ],
+      "seconds": [
+        0.26896337100004075,
+        0.2526383279999891
+      ]
+    },
+    {
+      "workload": "hotcold-19",
+      "argv": [
+        "/workspace/scratch/3acfd9351244/FlashCore-C/build-sanitize/flashcore"
+      ],
+      "exit_codes": [
+        0,
+        0
+      ],
+      "seconds": [
+        0.25050743799999964,
+        0.2506622419999758
+      ]
+    },
+    {
+      "workload": "hotcold-41",
+      "argv": [
+        "/workspace/scratch/3acfd9351244/FlashCore-C/build-sanitize/flashcore"
+      ],
+      "exit_codes": [
+        0,
+        0
+      ],
+      "seconds": [
+        0.26424972200004504,
+        0.2738362599999391
+      ]
+    },
+    {
+      "workload": "trim_mix-7",
+      "argv": [
+        "/workspace/scratch/3acfd9351244/FlashCore-C/build-sanitize/flashcore"
+      ],
+      "exit_codes": [
+        0,
+        0
+      ],
+      "seconds": [
+        0.2512490679999928,
+        0.24047538300010274
+      ]
+    },
+    {
+      "workload": "trim_mix-19",
+      "argv": [
+        "/workspace/scratch/3acfd9351244/FlashCore-C/build-sanitize/flashcore"
+      ],
+      "exit_codes": [
+        0,
+        0
+      ],
+      "seconds": [
+        0.22733674999994946,
+        0.22513662000005752
+      ]
+    },
+    {
+      "workload": "trim_mix-41",
+      "argv": [
+        "/workspace/scratch/3acfd9351244/FlashCore-C/build-sanitize/flashcore"
+      ],
+      "exit_codes": [
+        0,
+        0
+      ],
+      "seconds": [
+        0.22786779700004445,
+        0.22831013500001518
+      ]
+    },
+    {
+      "workload": "sequential-0",
+      "argv": [
+        "/workspace/scratch/3acfd9351244/FlashCore-C/build-sanitize/flashcore"
+      ],
+      "exit_codes": [
+        0,
+        0
+      ],
+      "seconds": [
+        0.03611617500007469,
+        0.03166673900000205
+      ]
+    },
+    {
+      "workload": "program_fault-0",
+      "argv": [
+        "/workspace/scratch/3acfd9351244/FlashCore-C/build-sanitize/flashcore"
+      ],
+      "exit_codes": [
+        0,
+        0
+      ],
+      "seconds": [
+        0.01095566400010739,
+        0.004991442999994433
+      ]
+    },
+    {
+      "workload": "gc_rollback-0",
+      "argv": [
+        "/workspace/scratch/3acfd9351244/FlashCore-C/build-sanitize/flashcore"
+      ],
+      "exit_codes": [
+        0,
+        0
+      ],
+      "seconds": [
+        0.00979026499999236,
+        0.00850530599996091
+      ]
+    },
+    {
+      "workload": "erase_fault-0",
+      "argv": [
+        "/workspace/scratch/3acfd9351244/FlashCore-C/build-sanitize/flashcore"
+      ],
+      "exit_codes": [
+        0,
+        0
+      ],
+      "seconds": [
+        0.008156108999969547,
+        0.00885465800001839
+      ]
+    },
+    {
+      "workload": "retirement-0",
+      "argv": [
+        "/workspace/scratch/3acfd9351244/FlashCore-C/build-sanitize/flashcore"
+      ],
+      "exit_codes": [
+        0,
+        0
+      ],
+      "seconds": [
+        0.006969388000015897,
+        0.0064890529999956925
+      ]
+    },
+    {
+      "workload": "bounds-0",
+      "argv": [
+        "/workspace/scratch/3acfd9351244/FlashCore-C/build-sanitize/flashcore"
+      ],
+      "exit_codes": [
+        0,
+        0
+      ],
+      "seconds": [
+        0.004050351999921986,
+        0.005502104000015606
+      ]
+    }
+  ],
+  "scenarios": 15,
+  "checked_rows": 615681,
+  "malformed_cases": 7,
+  "failures": []
+}

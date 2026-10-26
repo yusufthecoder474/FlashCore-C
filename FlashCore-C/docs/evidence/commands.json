@@ -1,0 +1,252 @@
+[
+  {
+    "project": "FlashCore-C",
+    "mode": "debug",
+    "step": "configure",
+    "argv": [
+      "/root/.local/bin/cmake",
+      "-S",
+      "FlashCore-C",
+      "-B",
+      "FlashCore-C/build-debug",
+      "-DCMAKE_BUILD_TYPE=Debug"
+    ],
+    "exit_code": 0,
+    "log": "evidence/flash-debug-configure.log"
+  },
+  {
+    "project": "FlashCore-C",
+    "mode": "debug",
+    "step": "build",
+    "argv": [
+      "/root/.local/bin/cmake",
+      "--build",
+      "FlashCore-C/build-debug",
+      "--verbose"
+    ],
+    "exit_code": 0,
+    "log": "evidence/flash-debug-build.log"
+  },
+  {
+    "project": "FlashCore-C",
+    "mode": "debug",
+    "step": "ctest",
+    "argv": [
+      "/root/.local/bin/ctest",
+      "--test-dir",
+      "FlashCore-C/build-debug",
+      "--output-on-failure"
+    ],
+    "exit_code": 0,
+    "log": "evidence/flash-debug-ctest.log"
+  },
+  {
+    "project": "FlashCore-C",
+    "mode": "sanitize",
+    "step": "configure",
+    "argv": [
+      "/root/.local/bin/cmake",
+      "-S",
+      "FlashCore-C",
+      "-B",
+      "FlashCore-C/build-sanitize",
+      "-DCMAKE_BUILD_TYPE=Debug",
+      "-DENABLE_SANITIZERS=ON"
+    ],
+    "exit_code": 0,
+    "log": "evidence/flash-sanitize-configure.log"
+  },
+  {
+    "project": "FlashCore-C",
+    "mode": "sanitize",
+    "step": "build",
+    "argv": [
+      "/root/.local/bin/cmake",
+      "--build",
+      "FlashCore-C/build-sanitize",
+      "--verbose"
+    ],
+    "exit_code": 0,
+    "log": "evidence/flash-sanitize-build.log"
+  },
+  {
+    "project": "FlashCore-C",
+    "mode": "sanitize",
+    "step": "ctest",
+    "argv": [
+      "/root/.local/bin/ctest",
+      "--test-dir",
+      "FlashCore-C/build-sanitize",
+      "--output-on-failure"
+    ],
+    "exit_code": 8,
+    "log": "evidence/flash-sanitize-ctest.log"
+  },
+  {
+    "project": "FlashCore-C",
+    "mode": "release",
+    "step": "configure",
+    "argv": [
+      "/root/.local/bin/cmake",
+      "-S",
+      "FlashCore-C",
+      "-B",
+      "FlashCore-C/build-release",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DENABLE_ANALYZER=ON"
+    ],
+    "exit_code": 0,
+    "log": "evidence/flash-release-configure.log"
+  },
+  {
+    "project": "FlashCore-C",
+    "mode": "release",
+    "step": "build",
+    "argv": [
+      "/root/.local/bin/cmake",
+      "--build",
+      "FlashCore-C/build-release",
+      "--verbose"
+    ],
+    "exit_code": 0,
+    "log": "evidence/flash-release-build.log"
+  },
+  {
+    "project": "FlashCore-C",
+    "mode": "release",
+    "step": "ctest",
+    "argv": [
+      "/root/.local/bin/ctest",
+      "--test-dir",
+      "FlashCore-C/build-release",
+      "--output-on-failure"
+    ],
+    "exit_code": 0,
+    "log": "evidence/flash-release-ctest.log"
+  },
+  {
+    "project": "FirmwareKit-C",
+    "mode": "debug",
+    "step": "configure",
+    "argv": [
+      "/root/.local/bin/cmake",
+      "-S",
+      "FirmwareKit-C",
+      "-B",
+      "FirmwareKit-C/build-debug",
+      "-DCMAKE_BUILD_TYPE=Debug"
+    ],
+    "exit_code": 0,
+    "log": "evidence/kit-debug-configure.log"
+  },
+  {
+    "project": "FirmwareKit-C",
+    "mode": "debug",
+    "step": "build",
+    "argv": [
+      "/root/.local/bin/cmake",
+      "--build",
+      "FirmwareKit-C/build-debug",
+      "--verbose"
+    ],
+    "exit_code": 0,
+    "log": "evidence/kit-debug-build.log"
+  },
+  {
+    "project": "FirmwareKit-C",
+    "mode": "debug",
+    "step": "ctest",
+    "argv": [
+      "/root/.local/bin/ctest",
+      "--test-dir",
+      "FirmwareKit-C/build-debug",
+      "--output-on-failure"
+    ],
+    "exit_code": 0,
+    "log": "evidence/kit-debug-ctest.log"
+  },
+  {
+    "project": "FirmwareKit-C",
+    "mode": "sanitize",
+    "step": "configure",
+    "argv": [
+      "/root/.local/bin/cmake",
+      "-S",
+      "FirmwareKit-C",
+      "-B",
+      "FirmwareKit-C/build-sanitize",
+      "-DCMAKE_BUILD_TYPE=Debug",
+      "-DENABLE_SANITIZERS=ON"
+    ],
+    "exit_code": 0,
+    "log": "evidence/kit-sanitize-configure.log"
+  },
+  {
+    "project": "FirmwareKit-C",
+    "mode": "sanitize",
+    "step": "build",
+    "argv": [
+      "/root/.local/bin/cmake",
+      "--build",
+      "FirmwareKit-C/build-sanitize",
+      "--verbose"
+    ],
+    "exit_code": 0,
+    "log": "evidence/kit-sanitize-build.log"
+  },
+  {
+    "project": "FirmwareKit-C",
+    "mode": "sanitize",
+    "step": "ctest",
+    "argv": [
+      "/root/.local/bin/ctest",
+      "--test-dir",
+      "FirmwareKit-C/build-sanitize",
+      "--output-on-failure"
+    ],
+    "exit_code": 8,
+    "log": "evidence/kit-sanitize-ctest.log"
+  },
+  {
+    "project": "FirmwareKit-C",
+    "mode": "release",
+    "step": "configure",
+    "argv": [
+      "/root/.local/bin/cmake",
+      "-S",
+      "FirmwareKit-C",
+      "-B",
+      "FirmwareKit-C/build-release",
+      "-DCMAKE_BUILD_TYPE=Release",
+      "-DENABLE_ANALYZER=ON"
+    ],
+    "exit_code": 0,
+    "log": "evidence/kit-release-configure.log"
+  },
+  {
+    "project": "FirmwareKit-C",
+    "mode": "release",
+    "step": "build",
+    "argv": [
+      "/root/.local/bin/cmake",
+      "--build",
+      "FirmwareKit-C/build-release",
+      "--verbose"
+    ],
+    "exit_code": 0,
+    "log": "evidence/kit-release-build.log"
+  },
+  {
+    "project": "FirmwareKit-C",
+    "mode": "release",
+    "step": "ctest",
+    "argv": [
+      "/root/.local/bin/ctest",
+      "--test-dir",
+      "FirmwareKit-C/build-release",
+      "--output-on-failure"
+    ],
+    "exit_code": 0,
+    "log": "evidence/kit-release-ctest.log"
+  }
+]

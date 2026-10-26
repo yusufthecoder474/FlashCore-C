@@ -1,0 +1,10 @@
+# COMMAND,lba_or_block,value_or_fault_countdown
+WRITE,0,123
+READ,0,0
+WRITE,0,456
+READ,0,0
+FAULT_PROGRAM,0,1
+WRITE,0,789
+READ,0,0
+TRIM,0,0
+READ,0,0

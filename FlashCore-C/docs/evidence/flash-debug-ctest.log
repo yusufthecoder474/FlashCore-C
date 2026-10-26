@@ -1,0 +1,43 @@
+Test project /workspace/scratch/3acfd9351244/FlashCore-C/build-debug
+      Start  1: initial
+ 1/19 Test  #1: initial ..........................   Passed    0.00 sec
+      Start  2: bounds
+ 2/19 Test  #2: bounds ...........................   Passed    0.00 sec
+      Start  3: overwrite
+ 3/19 Test  #3: overwrite ........................   Passed    0.00 sec
+      Start  4: trim
+ 4/19 Test  #4: trim .............................   Passed    0.00 sec
+      Start  5: program_fault
+ 5/19 Test  #5: program_fault ....................   Passed    0.00 sec
+      Start  6: delayed_fault
+ 6/19 Test  #6: delayed_fault ....................   Passed    0.00 sec
+      Start  7: gc_copy
+ 7/19 Test  #7: gc_copy ..........................   Passed    0.00 sec
+      Start  8: gc_rollback
+ 8/19 Test  #8: gc_rollback ......................   Passed    0.00 sec
+      Start  9: gc_fault_positions
+ 9/19 Test  #9: gc_fault_positions ...............   Passed    0.00 sec
+      Start 10: erase_fault
+10/19 Test #10: erase_fault ......................   Passed    0.00 sec
+      Start 11: double_fault
+11/19 Test #11: double_fault .....................   Passed    0.00 sec
+      Start 12: retirement
+12/19 Test #12: retirement .......................   Passed    0.00 sec
+      Start 13: wear_choice
+13/19 Test #13: wear_choice ......................   Passed    0.00 sec
+      Start 14: exclude_active
+14/19 Test #14: exclude_active ...................   Passed    0.00 sec
+      Start 15: exhausted
+15/19 Test #15: exhausted ........................   Passed    0.00 sec
+      Start 16: corruption
+16/19 Test #16: corruption .......................   Passed    0.00 sec
+      Start 17: stress
+17/19 Test #17: stress ...........................   Passed    0.02 sec
+      Start 18: python_validation
+18/19 Test #18: python_validation ................   Passed    3.59 sec
+      Start 19: comparison_tests
+19/19 Test #19: comparison_tests .................   Passed    0.05 sec
+
+100% tests passed out of 19
+
+Total Test time (real) =   3.68 sec

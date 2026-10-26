@@ -1,0 +1,8 @@
+{
+  "project": "FlashCore-C",
+  "source_files": 8,
+  "source_lines": 854,
+  "heap_calls": [],
+  "nm_exit": 0,
+  "undefined_symbols": "\nftl.c.o:\n                 U memset\n"
+}

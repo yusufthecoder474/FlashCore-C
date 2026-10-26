@@ -1,0 +1,2 @@
+map_bytes,state_bytes,owner_bytes,data_bytes,erase_count_bytes,bad_table_bytes,ftl_bytes
+64,64,128,256,32,8,580

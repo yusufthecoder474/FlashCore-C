@@ -1,0 +1,30 @@
+[
+  {
+    "argv": [
+      "/root/.local/bin/ctest",
+      "--test-dir",
+      "FlashCore-C/build-sanitize",
+      "--output-on-failure"
+    ],
+    "env": {
+      "ASAN_OPTIONS": "detect_leaks=0:halt_on_error=1",
+      "UBSAN_OPTIONS": "halt_on_error=1:print_stacktrace=1"
+    },
+    "exit_code": 0,
+    "log": "evidence/flash-sanitize-no-lsan-ctest.log"
+  },
+  {
+    "argv": [
+      "/root/.local/bin/ctest",
+      "--test-dir",
+      "FirmwareKit-C/build-sanitize",
+      "--output-on-failure"
+    ],
+    "env": {
+      "ASAN_OPTIONS": "detect_leaks=0:halt_on_error=1",
+      "UBSAN_OPTIONS": "halt_on_error=1:print_stacktrace=1"
+    },
+    "exit_code": 0,
+    "log": "evidence/kit-sanitize-no-lsan-ctest.log"
+  }
+]

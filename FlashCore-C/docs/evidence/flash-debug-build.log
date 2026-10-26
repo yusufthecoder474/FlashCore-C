@@ -1,0 +1,51 @@
+Change Dir: '/workspace/scratch/3acfd9351244/FlashCore-C/build-debug'
+
+Run Build Command(s): /root/.local/lib/python3.12/site-packages/cmake/data/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile
+/root/.local/lib/python3.12/site-packages/cmake/data/bin/cmake -S/workspace/scratch/3acfd9351244/FlashCore-C -B/workspace/scratch/3acfd9351244/FlashCore-C/build-debug --check-build-system CMakeFiles/Makefile.cmake 0
+/root/.local/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_progress_start /workspace/scratch/3acfd9351244/FlashCore-C/build-debug/CMakeFiles /workspace/scratch/3acfd9351244/FlashCore-C/build-debug//CMakeFiles/progress.marks
+/usr/bin/gmake  -f CMakeFiles/Makefile2 all
+gmake[1]: Entering directory '/workspace/scratch/3acfd9351244/FlashCore-C/build-debug'
+/usr/bin/gmake  -f CMakeFiles/ftl.dir/build.make CMakeFiles/ftl.dir/depend
+gmake[2]: Entering directory '/workspace/scratch/3acfd9351244/FlashCore-C/build-debug'
+cd /workspace/scratch/3acfd9351244/FlashCore-C/build-debug && /root/.local/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_depends "Unix Makefiles" /workspace/scratch/3acfd9351244/FlashCore-C /workspace/scratch/3acfd9351244/FlashCore-C /workspace/scratch/3acfd9351244/FlashCore-C/build-debug /workspace/scratch/3acfd9351244/FlashCore-C/build-debug /workspace/scratch/3acfd9351244/FlashCore-C/build-debug/CMakeFiles/ftl.dir/DependInfo.cmake "--color=" ftl
+gmake[2]: Leaving directory '/workspace/scratch/3acfd9351244/FlashCore-C/build-debug'
+/usr/bin/gmake  -f CMakeFiles/ftl.dir/build.make CMakeFiles/ftl.dir/build
+gmake[2]: Entering directory '/workspace/scratch/3acfd9351244/FlashCore-C/build-debug'
+[ 16%] Building C object CMakeFiles/ftl.dir/src/ftl.c.o
+/usr/bin/cc  -I/workspace/scratch/3acfd9351244/FlashCore-C/include -g -std=c99 -Wall -Wextra -Werror -pedantic -Wvla -MD -MT CMakeFiles/ftl.dir/src/ftl.c.o -MF CMakeFiles/ftl.dir/src/ftl.c.o.d -o CMakeFiles/ftl.dir/src/ftl.c.o -c /workspace/scratch/3acfd9351244/FlashCore-C/src/ftl.c
+[ 33%] Linking C static library libftl.a
+/root/.local/lib/python3.12/site-packages/cmake/data/bin/cmake -P CMakeFiles/ftl.dir/cmake_clean_target.cmake
+/root/.local/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/ftl.dir/link.txt --verbose=1
+/usr/bin/ar qc libftl.a CMakeFiles/ftl.dir/src/ftl.c.o
+/usr/bin/ranlib libftl.a
+gmake[2]: Leaving directory '/workspace/scratch/3acfd9351244/FlashCore-C/build-debug'
+[ 33%] Built target ftl
+/usr/bin/gmake  -f CMakeFiles/flashcore.dir/build.make CMakeFiles/flashcore.dir/depend
+gmake[2]: Entering directory '/workspace/scratch/3acfd9351244/FlashCore-C/build-debug'
+cd /workspace/scratch/3acfd9351244/FlashCore-C/build-debug && /root/.local/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_depends "Unix Makefiles" /workspace/scratch/3acfd9351244/FlashCore-C /workspace/scratch/3acfd9351244/FlashCore-C /workspace/scratch/3acfd9351244/FlashCore-C/build-debug /workspace/scratch/3acfd9351244/FlashCore-C/build-debug /workspace/scratch/3acfd9351244/FlashCore-C/build-debug/CMakeFiles/flashcore.dir/DependInfo.cmake "--color=" flashcore
+gmake[2]: Leaving directory '/workspace/scratch/3acfd9351244/FlashCore-C/build-debug'
+/usr/bin/gmake  -f CMakeFiles/flashcore.dir/build.make CMakeFiles/flashcore.dir/build
+gmake[2]: Entering directory '/workspace/scratch/3acfd9351244/FlashCore-C/build-debug'
+[ 50%] Building C object CMakeFiles/flashcore.dir/src/cli.c.o
+/usr/bin/cc  -I/workspace/scratch/3acfd9351244/FlashCore-C/include -g -std=c99 -Wall -Wextra -Werror -pedantic -Wvla -MD -MT CMakeFiles/flashcore.dir/src/cli.c.o -MF CMakeFiles/flashcore.dir/src/cli.c.o.d -o CMakeFiles/flashcore.dir/src/cli.c.o -c /workspace/scratch/3acfd9351244/FlashCore-C/src/cli.c
+[ 66%] Linking C executable flashcore
+/root/.local/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/flashcore.dir/link.txt --verbose=1
+/usr/bin/cc -g -Wl,--dependency-file=CMakeFiles/flashcore.dir/link.d CMakeFiles/flashcore.dir/src/cli.c.o -o flashcore  libftl.a
+gmake[2]: Leaving directory '/workspace/scratch/3acfd9351244/FlashCore-C/build-debug'
+[ 66%] Built target flashcore
+/usr/bin/gmake  -f CMakeFiles/test_ftl.dir/build.make CMakeFiles/test_ftl.dir/depend
+gmake[2]: Entering directory '/workspace/scratch/3acfd9351244/FlashCore-C/build-debug'
+cd /workspace/scratch/3acfd9351244/FlashCore-C/build-debug && /root/.local/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_depends "Unix Makefiles" /workspace/scratch/3acfd9351244/FlashCore-C /workspace/scratch/3acfd9351244/FlashCore-C /workspace/scratch/3acfd9351244/FlashCore-C/build-debug /workspace/scratch/3acfd9351244/FlashCore-C/build-debug /workspace/scratch/3acfd9351244/FlashCore-C/build-debug/CMakeFiles/test_ftl.dir/DependInfo.cmake "--color=" test_ftl
+gmake[2]: Leaving directory '/workspace/scratch/3acfd9351244/FlashCore-C/build-debug'
+/usr/bin/gmake  -f CMakeFiles/test_ftl.dir/build.make CMakeFiles/test_ftl.dir/build
+gmake[2]: Entering directory '/workspace/scratch/3acfd9351244/FlashCore-C/build-debug'
+[ 83%] Building C object CMakeFiles/test_ftl.dir/tests/test_ftl.c.o
+/usr/bin/cc  -I/workspace/scratch/3acfd9351244/FlashCore-C/include -g -std=c99 -Wall -Wextra -Werror -pedantic -Wvla -MD -MT CMakeFiles/test_ftl.dir/tests/test_ftl.c.o -MF CMakeFiles/test_ftl.dir/tests/test_ftl.c.o.d -o CMakeFiles/test_ftl.dir/tests/test_ftl.c.o -c /workspace/scratch/3acfd9351244/FlashCore-C/tests/test_ftl.c
+[100%] Linking C executable test_ftl
+/root/.local/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_link_script CMakeFiles/test_ftl.dir/link.txt --verbose=1
+/usr/bin/cc -g -Wl,--dependency-file=CMakeFiles/test_ftl.dir/link.d CMakeFiles/test_ftl.dir/tests/test_ftl.c.o -o test_ftl  libftl.a
+gmake[2]: Leaving directory '/workspace/scratch/3acfd9351244/FlashCore-C/build-debug'
+[100%] Built target test_ftl
+gmake[1]: Leaving directory '/workspace/scratch/3acfd9351244/FlashCore-C/build-debug'
+/root/.local/lib/python3.12/site-packages/cmake/data/bin/cmake -E cmake_progress_start /workspace/scratch/3acfd9351244/FlashCore-C/build-debug/CMakeFiles 0
+
